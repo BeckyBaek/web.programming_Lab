@@ -1,0 +1,22 @@
+<!doctype>
+<html>
+<head>
+<title>태그에 스타일 지정</title>
+<meta charset = "utf-8">
+<style>
+    p {background-color:yellow; color:blue;}
+    p.redtxt {color:red;}
+    p.boldtxt {font-weight :bold;}
+    p.greentxt {color:green;}
+</style>
+</head>
+<body>
+    <p>이 텍스트는 스타일의 적용을 받아 글자가 파란색으로 표시됩니다.</p>
+    <p class="redtxt">같은 태그이지만 글자가 빨간색으로 표시됩니다.</p>
+    <p class="greentxt">녹색의 글자도 사용할 수 있습니다.</p>
+    <span style="color: red; font-size: 20px;"><strong>P 태그가 아니라도 빨간글자가 적용됩니다.</strong></span> <br><br>
+    <span style="color: green; font-size: 20px;"><strong>P 태그가 아니라도 녹색글자가 적용됩니다.</strong></span>
+    <p class="boldtxt">P 태그에 굵은 글자도 사용할 수 있습니다. </p>
+    <span style="font-size:20px"><strong>P 태그에만 적용되는 클래스이므로 적용되지 않습니다. </strong></span>
+</body>
+</html>
