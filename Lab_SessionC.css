@@ -1,0 +1,25 @@
+p {
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 20px solid lightgray;
+}
+
+#round {
+    border: 15px solid transparent;
+    padding: 5px;
+    border-image: url("borderImg2.png") 30 round;
+}
+
+#repeat {
+    border: 15px solid transparent;
+    padding: 5px;
+    border-image: url("borderImg2.png") 30 repeat;
+}
+
+#stretch {
+    border: 15px solid transparent;
+    padding: 5px;
+    border-image: url("borderImg2.png") 30 stretch;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Lab6_survey.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>설문지</h1>
+        <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+        <hr>
+    </header>
+    <form>
+        <span>학년</span>
+        <label><input type="radio" name="grade" value="1">1학년</label>
+        <label><input type="radio" name="grade" value="1">2학년</label>
+        <label><input type="radio" name="grade" value="1">3학년</label>
+        <label><input type="radio" name="grade" value="1">4학년</label>
+        <br><br>
+        <span>성별</span>
+        <label><input type="radio" name="sex" value="5">남</label>
+        <label><input type="radio" name="sex" value="6">여</label>
+        <br><br>
+        <span>관심 분야</span>
+        <select name="interest">
+            <option value="7">모바일 소프트웨어 </option>
+            <option value ="8">웹프로그래밍</option>
+        </select>
+        <br><br>
+        <span>진로(다중 선택)</span>
+        <label><input type="checkbox" value="9">개발</label>
+        <label><input type="checkbox" value="9">기획</label>
+        <label><input type="checkbox" value="9">영업</label>
+        <label><input type="checkbox" value="9">창업</label>
+        <br><br>
+        <span>남기고 싶은 말</span>
+        <textarea cols="100" rows="20" placeholder="글을 남겨주세요"></textarea>
+    </form>
+    <br>
+    
+    <footer>
+        Copyright &copy; by SeoulTech 컴퓨터공학과
+    </footer>
+</body>
+</html>
